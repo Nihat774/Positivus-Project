@@ -7,7 +7,7 @@ function Home() {
   return (
     <main className="flex flex-col gap-[70px]" id="about">
       <div className=" flex md:flex-row flex-col justify-between">
-        <section className="w-full md:w-[30vw] h-[440px] flex flex-col justify-between">
+        <section className="w-full md:w-[30vw] h-[380px] flex flex-col justify-between">
           <div className="flex flex-col gap-4 font-semibold text-4xl md:text-5xl leading-[100%]">
             <h1>Navigating the</h1>
             <h1>digital landscape </h1>
@@ -19,16 +19,17 @@ function Home() {
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <Link
-            to=""
-            className="bg-black text-white w-[264px] py-5 text-center rounded-[14px]"
-          >
-            Book a consultation
-          </Link>
+         
         </section>
 
         <section>
           <img src="/Illustration.png" alt="Illustration image" />
+           <Link
+            to=""
+            className="bg-black text-white w-[264px] py-5 text-center rounded-[14px] absolute left-[60px] bottom-[-13vh]"
+          >
+            Book a consultation
+          </Link>
         </section>
       </div>
 

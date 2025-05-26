@@ -114,7 +114,7 @@ function ServicesPage() {
                 </div>
 
                 {/* image */}
-                <div className="absolute bottom-3 right-14 size-[150px]">
+                <div className="absolute bottom-3 right-14 md:bottom-[-40px] md:size-[250px] size-[150px]">
                   <img src={`/cart-images/${item.image}`} alt={item.text1} />
                 </div>
               </Link>

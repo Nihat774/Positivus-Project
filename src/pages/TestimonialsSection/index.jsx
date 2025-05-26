@@ -1,3 +1,4 @@
+import CustomSlider from "../../components/Comments"
 
 
 function TestimonialsSection() {
@@ -11,8 +12,8 @@ function TestimonialsSection() {
           Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
         </p>
       </div>
-      <div className="h-[50vh] bg-blue-500 flex justify-center items-center">
-        <p>Comments</p>
+      <div className="md:h-[625px] h-fit bg-deepgray rounded-[45px] ">
+        <CustomSlider />
       </div>
     </section>
   )
