@@ -49,7 +49,7 @@ function Header() {
         </div>
 
         {navLinks.map((item, index) => (
-          <a href={item.path} key={index} className="text-xl">
+          <a href={item.path} key={index} className="text-xl"   onClick={() => setIsOpenNav(false)}>
             {item.text}
           </a>
         ))}
@@ -59,7 +59,7 @@ function Header() {
         </Link>
       </nav>
 
-      {/* Overlay */}
+   
       {isOpenNav && (
         <div
           onClick={() => setIsOpenNav(false)}
