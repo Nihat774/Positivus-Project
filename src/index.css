@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.bg-deepgray {
+  background-color: #191A23;
+}
+.my-green{
+  background-color: #B9FF66;
+}
+.cart-shadow{
+  box-shadow: black;
+  box-shadow: 0px 3px 0px 0px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;         
+  height: 24px;
+  border: 1px solid black;  
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+input[type="radio"]:checked::after {
+  content: "";
+  display: block;
+  width: 14px;            
+  height: 14px;
+  background: #B9FF66;    
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;              
+  left: 4px;
+}
+input:focus{
+  outline: none;
+}
