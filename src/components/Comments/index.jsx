@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
-const CustomSlider = () => {
+const Slider = () => {
   const items = [
     {
       id: 1,
@@ -106,7 +106,7 @@ const CustomSlider = () => {
         <div className="flex h-[12vh] w-full md:h-[26vh] md:w-[50vw] items-end  justify-around">
           <button
             onClick={prev}
-            className=" -translate-y-1/2 z-10 text-3xl font-bold"
+            className="cursor-pointer  -translate-y-1/2 z-10 text-3xl font-bold"
             aria-label="Previous"
           >
             <LuArrowLeft className="text-white" />
@@ -115,7 +115,7 @@ const CustomSlider = () => {
             {[...Array(currentIndex)].map((_, i) => (
               <img
                 key={i}
-                className="w-[15px] h-[15px]"
+                className=" w-[15px] h-[15px]"
                 src="/icons/slider-icon.svg"
                 alt={`icon-${i}`}
               />
@@ -131,7 +131,7 @@ const CustomSlider = () => {
           </div>
           <button
             onClick={next}
-            className=" -translate-y-1/2 z-10 text-3xl font-bold"
+            className="cursor-pointer -translate-y-1/2 z-10 text-3xl font-bold"
             aria-label="Next"
           >
             <LuArrowRight className="text-white" />
@@ -142,4 +142,4 @@ const CustomSlider = () => {
   );
 };
 
-export default CustomSlider;
+export default Slider;

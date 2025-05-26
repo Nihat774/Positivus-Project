@@ -1,5 +1,4 @@
-import CustomSlider from "../../components/Comments"
-
+import Slider from "../../components/Comments"
 
 function TestimonialsSection() {
   return (
@@ -13,7 +12,7 @@ function TestimonialsSection() {
         </p>
       </div>
       <div className="md:h-[625px] h-fit bg-deepgray rounded-[45px] ">
-        <CustomSlider />
+        <Slider />
       </div>
     </section>
   )

@@ -7,7 +7,7 @@ function Home() {
   return (
     <main className="flex flex-col gap-[70px]" id="about">
       <div className=" flex md:flex-row flex-col justify-between">
-        <section className="w-full md:w-[30vw] h-[380px] flex flex-col justify-between">
+        <section className=" w-full md:w-[30vw] h-[280px] md:h-[380px] flex flex-col justify-between">
           <div className="flex flex-col gap-4 font-semibold text-4xl md:text-5xl leading-[100%]">
             <h1>Navigating the</h1>
             <h1>digital landscape </h1>
