@@ -7,7 +7,7 @@ function Home() {
   return (
     <main className="flex flex-col xl:gap-[70px] md:gap-[50px] sm:gap-[70px] " id="about">
       <section className=" flex xl:flex-row flex-col justify-between">
-        <div className=" w-full h-[93vh] bg-red-500 md:h-[90vh]   flex flex-col justify-between">
+        <div className=" w-full h-[93vh] md:h-[90vh]   flex flex-col justify-between">
           <div className="flex xl:flex-row flex-col gap-8 xl:gap-0 justify-between">
             <div className="flex flex-col gap-4 font-semibold text-4xl md:text-6xl xl:text-5xl leading-[100%] w-full xl:w-[30vw]">
               <h1>Navigating the</h1>
