@@ -1,20 +1,20 @@
 function ContactUsSection() {
   return (
-    <section className="flex flex-col gap-8 md:gap-14">
-      <div className="flex md:flex-row flex-col gap-8 md:gap-10 items-center">
+    <section className="flex flex-col gap-8 xl:gap-14">
+      <div className="flex xl:flex-row flex-col gap-8 xl:gap-10 items-center">
         <p className="font-semibold my-green p-1 rounded-[7px] text-2xl">
           Contact Us
         </p>
-        <p className="w-full md:w-[23vw] text-center md:text-start">
+        <p className="w-full xl:w-[23vw] text-center xl:text-start sm:text-lg md:text-xl xl:text-lg">
           Connect with Us: Let's Discuss Your Digital Marketing Needs
         </p>
       </div>
 
-      <div className="bg-white md:bg-[#F3F3F3] h-fit md:h-[753px] flex md:gap-0 gap-5 justify-between md:py-[60px]  md:px-0 md:pl-[100px] rounded-[45px] w-full">
+      <div className="bg-white xl:bg-[#F3F3F3] h-fit xl:h-[753px] flex xl:gap-0 gap-5 justify-between xl:py-[60px]  xl:px-0 xl:pl-[100px] rounded-[45px] w-full">
         <form className="flex flex-col gap-8 w-full">
-          <div className="w-full md:w-[556px] flex flex-col gap-6 bg-[#F3F3F3] py-10 px-8 rounded-[45px]">
+          <div className="w-full xl:w-[556px] flex flex-col gap-6 bg-[#F3F3F3] py-10 px-8 rounded-[45px]">
             
-            <div className="flex md:justify-start gap-0 justify-between md:gap-6">
+            <div className="flex md:justify-start gap-0 sm:justify-between md:gap-6">
               <label className="flex items-center gap-1">
                 <input type="radio" name="example" />
                 <span className="custom-radio"></span>
@@ -33,7 +33,7 @@ function ContactUsSection() {
                 type="text"
                 id="name"
                 placeholder="Name"
-                className="w-full border rounded-[14px] py-[14px] md:px-[30px] px-5 bg-white"
+                className="w-full border rounded-[14px] py-[14px] xl:px-[30px] px-5 bg-white"
               />
             </div>
 
@@ -44,7 +44,7 @@ function ContactUsSection() {
                 type="email"
                 id="email"
                 placeholder="Email"
-                className="w-full border rounded-[14px] py-[14px] md:px-[30px] px-5 bg-white"
+                className="w-full border rounded-[14px] py-[14px] xl:px-[30px] px-5 bg-white"
               />
             </div>
 
@@ -54,7 +54,7 @@ function ContactUsSection() {
                 id="msg"
                 placeholder="Message"
                 required
-                className="outline-0 w-full h-[130px] md:h-[190px] border rounded-[14px] py-[14px] md:px-[30px] px-5 bg-white resize-none"
+                className="outline-0 w-full h-[130px] xl:h-[190px] border rounded-[14px] py-[14px] xl:px-[30px] px-5 bg-white resize-none"
               ></textarea>
             </div>
           </div>
@@ -63,7 +63,7 @@ function ContactUsSection() {
           </button>
         </form>
 
-        <div className="md:block hidden">
+        <div className="xl:block hidden">
           <img src="/contact-image.png" alt="contact-image" loading="lazy" />
         </div>
       </div>

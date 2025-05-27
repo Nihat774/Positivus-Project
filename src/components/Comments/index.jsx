@@ -63,32 +63,31 @@ const Slider = () => {
         >
           {items.map((item) => (
             <div key={item.id} className="w-full flex flex-col gap-8 text-xl">
-              <div className="relative w-[80vw] h-[45vh] md:w-[40vw] md:h-[50vh] p-5 md:p-10 bg-[#191A23] rounded-[45px] shadow-md flex items-center justify-center border border-[#B9FF66]">
+              <div className="relative w-[80vw] h-[45vh] md:h-[20vh] md:w-[60vw]  xl:w-[40vw] xl:h-[50vh] p-5 md:p-10 bg-[#191A23] rounded-[45px] shadow-xl flex items-center justify-center border border-[#B9FF66]">
                 <p className="text-white">{item.comment}</p>
 
                 {/* Böyük yaşıl üçbucaq */}
                 <div
                   className="
-    absolute bottom-[-20px] 
-    md:left-[5vw]
-    left-[10vw] 
-    border-l-[17px] md:border-l-[25px] 
-    border-r-[20px] md:border-r-[20px] 
-    border-t-[18px] md:border-t-[20px] 
-    border-l-transparent border-r-transparent border-t-[#B9FF66]
-  "
+                            absolute bottom-[-20px] 
+                            xl:left-[5vw]
+                            left-[10vw] 
+                            border-l-[17px] xl:border-l-[25px] 
+                            border-r-[20px] xl:border-r-[20px] 
+                            border-t-[18px] xl:border-t-[20px] 
+                            border-l-transparent border-r-transparent border-t-[#B9FF66]"
                 ></div>
 
                 <div
                   className="
-    absolute bottom-[-13px] 
-    md:left-[5vw]
-    left-[10vw] 
-    z-50 
-    border-l-[16px] md:border-l-[25px] 
-    border-r-[18px] md:border-r-[20px] 
-    border-t-[18px] md:border-t-[19px] 
-    border-l-transparent border-r-transparent border-t-[#191A23]
+                           absolute bottom-[-13px] 
+                           xl:left-[5vw]
+                           left-[10vw] 
+                           z-50 
+                           border-l-[16px] xl:border-l-[25px] 
+                           border-r-[18px] xl:border-r-[20px] 
+                           border-t-[18px] xl:border-t-[19px] 
+                           border-l-transparent border-r-transparent border-t-[#191A23]
   "
                 ></div>
               </div>
@@ -103,7 +102,7 @@ const Slider = () => {
       </div>
 
       <div className="w-full flex justify-center">
-        <div className="flex h-[12vh] w-full md:h-[26vh] md:w-[50vw] items-end  justify-around">
+        <div className="flex h-[12vh] w-full md:h-[15vh] xl:h-[26vh] xl:w-[50vw] items-end  justify-around">
           <button
             onClick={prev}
             className="cursor-pointer  -translate-y-1/2 z-10 text-3xl font-bold"
@@ -123,7 +122,7 @@ const Slider = () => {
 
             {[...Array(items.length - currentIndex)].map((_, i) => (
               <img
-              key={i}
+                key={i}
                 className="size-[15px]"
                 src="/icons/slider-icon-white.svg"
                 alt="icon"

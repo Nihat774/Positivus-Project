@@ -12,10 +12,10 @@ function App() {
 
   return (
     <>
-    <div className="px-[15px] md:px-[60px]">
+    <div className="px-[15px] md:px-[30px] xl:px-[60px]">
        <Header />
     </div>
-    <div className="px-[15px] md:px-[60px] flex flex-col gap-[60px] md:gap-[140px] mt-[30px] md:mt-[70px]">
+    <div className="px-[15px] md:px-[30px] xl:px-[60px] flex flex-col gap-[60px]  xl:gap-[140px] mt-[30px]  xl:mt-[70px]">
      <Home />
      <ServicesPage />
      <CaseStudies />
