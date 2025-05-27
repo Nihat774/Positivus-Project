@@ -1,4 +1,4 @@
-import React from "react";
+
 import { LiaLinkedinIn } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import { teamCart } from "../../constants/constItems";

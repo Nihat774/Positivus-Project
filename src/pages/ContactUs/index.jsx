@@ -17,12 +17,12 @@ function ContactUsSection() {
             <div className="flex md:justify-start gap-0 justify-between md:gap-6">
               <label className="flex items-center gap-1">
                 <input type="radio" name="example" />
-                <span class="custom-radio"></span>
+                <span className="custom-radio"></span>
                 Say Hi
               </label>
               <label className="flex items-center gap-1">
                 <input type="radio" name="example" />
-                <span class="custom-radio"></span>
+                <span className="custom-radio"></span>
                 Get a Quote
               </label>
             </div>

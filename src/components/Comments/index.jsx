@@ -123,9 +123,10 @@ const Slider = () => {
 
             {[...Array(items.length - currentIndex)].map((_, i) => (
               <img
+              key={i}
                 className="size-[15px]"
                 src="/icons/slider-icon-white.svg"
-                alt=""
+                alt="icon"
               />
             ))}
           </div>

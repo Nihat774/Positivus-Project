@@ -47,7 +47,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col  md:items-center gap-7 md:justify-between mt-4">
+        <div className="flex md:flex-row flex-col  md:items-center gap-7 md:w-full md:justify-between mt-4">
           <div className="flex flex-col md:items-start items-center  gap-4 text-lg w-full">
             <p className="rounded-[7px] bg-[#B9FF66] text-black p-1 my-6 md:my-0 leading-[100%] font-semibold w-fit">
               Contact us:
@@ -89,7 +89,7 @@ function Footer() {
 
         {/* hr */}
         <div className="w-full py-7">
-          <hr className="mx-[23px] bg-neutral-500 md:bg-white h-[3px]" />
+          <hr className="mx-[23px] md:mx-0 bg-neutral-500 md:bg-white h-[3px]" />
         </div>
 
         <div className="flex md:flex-row flex-col md:items-start items-center gap-3 md:gap-5">

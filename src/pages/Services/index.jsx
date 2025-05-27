@@ -1,51 +1,9 @@
 import { IoArrowForwardCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { cartServices } from "../../constants/constItems";
 
 function ServicesPage() {
-  const cartServices = [
-    {
-      id: 1,
-      path: "",
-      text1: "Search engine",
-      text2: "optimization",
-      image: "cart-image1.png",
-    },
-    {
-      id: 2,
-      path: "",
-      text1: "Pay-per-click",
-      text2: "advertising",
-      image: "cart-image2.png",
-    },
-    {
-      id: 3,
-      path: "",
-      text1: "Social Media",
-      text2: "Marketing",
-      image: "cart-image3.png",
-    },
-    {
-      id: 4,
-      path: "",
-      text1: "Email",
-      text2: "Marketing",
-      image: "cart-image4.png",
-    },
-    {
-      id: 5,
-      path: "",
-      text1: "Content",
-      text2: "Creation",
-      image: "cart-image5.png",
-    },
-    {
-      id: 6,
-      path: "",
-      text1: "Analytics and ",
-      text2: "Tracking",
-      image: "cart-image6.png",
-    },
-  ];
+
   return (
     <main className="flex flex-col gap-[70px] md:gap-[100px]">
       <section id="service" className="flex flex-col gap-8 md:gap-20">

@@ -2,7 +2,7 @@ import Slider from "../../components/Comments"
 
 function TestimonialsSection() {
   return (
-    <section className="flex flex-col gap-8">
+    <section className="flex flex-col gap-20">
        <div className="flex md:flex-row flex-col gap-5 md:gap-10 items-center">
         <p className="font-semibold my-green p-1 rounded-[7px] text-2xl">
           Testimonials

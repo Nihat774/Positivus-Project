@@ -144,3 +144,66 @@ export const faq = [
       text: "We believe in long-term success, so we continuously look for new opportunities and areas to enhance your growth. Our strategies evolve with your business and the changing market landscape.",
     },
   ];
+
+  export  const studiesCart = [
+    {
+      id: 1,
+      path: "",
+      text: "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+    },
+    {
+      id: 2,
+      path: "",
+      text: "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
+    },
+    {
+      id: 3,
+      path: "",
+      text: "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
+    },
+  ];
+
+  export   const cartServices = [
+    {
+      id: 1,
+      path: "",
+      text1: "Search engine",
+      text2: "optimization",
+      image: "cart-image1.png",
+    },
+    {
+      id: 2,
+      path: "",
+      text1: "Pay-per-click",
+      text2: "advertising",
+      image: "cart-image2.png",
+    },
+    {
+      id: 3,
+      path: "",
+      text1: "Social Media",
+      text2: "Marketing",
+      image: "cart-image3.png",
+    },
+    {
+      id: 4,
+      path: "",
+      text1: "Email",
+      text2: "Marketing",
+      image: "cart-image4.png",
+    },
+    {
+      id: 5,
+      path: "",
+      text1: "Content",
+      text2: "Creation",
+      image: "cart-image5.png",
+    },
+    {
+      id: 6,
+      path: "",
+      text1: "Analytics and ",
+      text2: "Tracking",
+      image: "cart-image6.png",
+    },
+  ];

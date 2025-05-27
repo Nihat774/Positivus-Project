@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { faq } from "../../constants/constItems";
 
@@ -9,9 +9,6 @@ function FAQPage() {
   const handleOpen = (id) => {
     setOpenId((prev) => (prev === id ? null : id));
   };
-  useEffect(() => {
-    console.log(openId);
-  }, [openId]);
 
   return (
     <section className="flex flex-col gap-5 md:gap-20" id="pricing">
